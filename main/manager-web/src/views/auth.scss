@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(145deg, #f5f8fd, #6baaff, #9ebbfc, #f5f8fd);
+  background: linear-gradient(145deg, #eeb26e, #814a0b, #ad621b, #eeb26e);
   background-size: cover;
   /* 确保背景图像覆盖整个元素 */
   background-position: center;
@@ -66,7 +66,20 @@
   cursor: pointer;
   color: #fff;
   line-height: 35px;
-  margin: 15px 30px 15px 30px;
+  margin: 35px 15px 15px;
+}
+
+.code-send {
+  width: 70px;
+  height: 32px;
+  border-radius: 10px;
+  background: #e6ebff;
+  line-height: 32px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #5778ff;
+  flex-shrink: 0;
+  cursor: pointer;
 }
 
 .input-box {
